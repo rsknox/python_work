@@ -1,4 +1,4 @@
-#lsts
+#lists
 grade = ['C/AB', 'C/Amn', 'C/A1C','C/SrA','C/SSgt']
 cadet_name = ['Argabright', 'Conn, S.', 'Conn, V.', 'Dahlen', 'Clark']
 print(grade[0], cadet_name[1])
@@ -18,3 +18,5 @@ print("inactive cadet: ", inactive)
 print("original list: ", cadet_name)
 c_n_sorted = sorted(cadet_name)
 print("sorted list: ", c_n_sorted)
+print(grade[0])
+print("len: ", len(cadet_name))
