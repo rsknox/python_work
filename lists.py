@@ -1,4 +1,4 @@
-sts
+#lists
 grade = ['C/AB', 'C/Amn', 'C/A1C','C/SrA','C/SSgt']
 cadet_name = ['Argabright', 'S. Conn', 'V. Conn', 'Dahlen', 'Clark']
 print(grade[0], cadet_name[1])
