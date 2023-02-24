@@ -18,7 +18,21 @@ class Car:
         # print(f"This car has {self.odometer_reading} miles on it.")
         return self.odometer_reading
 
+    def update_odometer(self, mileage):
+        """Set the odometer to the given value."""
 
+        self.odometer_reading = mileage
+
+    def increment_odometer(self, miles):
+        """Add the given amount to the odometer reading."""
+
+        self.odometer_reading = self.odometer_reading + miles
+
+class ElectricCar(Car):
+    """Represent aspects of a car, specific to electric vehicles."""
+     def __init__(self, make, model, year):
+         """Initialize attributes of the parent class."""
+         super().__init__(make, model, year)
 
 
 
