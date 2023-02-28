@@ -1,4 +1,5 @@
 from car import Car
+from car import ElectricCar
 
 my_new_car = Car('audi', 'a4', '2019')
 print(my_new_car.get_descriptive_name())
@@ -18,3 +19,6 @@ my_used_car.update_odometer(89786)
 print(f"Miles now = {my_used_car.read_odometer()}")
 my_used_car.increment_odometer(100)
 print(f"Miles now = {my_used_car.read_odometer()}")
+
+my_tesla = ElectricCar('tesla', 'model s', 2019)
+print(my_tesla.get_descriptive_name())
